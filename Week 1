@@ -1,0 +1,12 @@
+
+Recapitulation of Databases principles (FK, PK, compound keys), relationships, queries.
+
+Exercises to create and query a database :
+
+You are asked to create a database to manage a movie collection. Draw the relational model for your movie collection. Detail the tables for actors, directors, films, genres and the relationships between them. Your schema needs to be in first normal form.
+
+Write SQL queries to create your schema and insert data in your database.
+
+Write the SQL query to retrieve all films grouped by genres from your database.
+
+Create your database in Oracle and execute your queries.
