@@ -1,0 +1,18 @@
+DECLARE
+     my_var  NUMBER;
+
+BEGIN
+     SELECT COUNT(*)
+     INTO     my_var
+     FROM     emp;
+
+     IF my_var > 10 THEN
+            DBMS_OUTPUT.PUT_LINE ('Lots of employees' ||my_var);
+
+     ELSE
+            DBMS_OUTPUT.PUT_LINE('Not many employees' || my_var);
+
+     END IF;
+
+END;
+/

@@ -1,0 +1,10 @@
+DECLARE 
+	my_var VARCHAR(300);
+
+BEGIN 
+	my_var := 'I study Software Engineering @ Solent University in 		Southampton';
+	
+	DBMS_OUTPUT.PUT_LINE ('Hello ' || my_var);
+
+END;
+/
